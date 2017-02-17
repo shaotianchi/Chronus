@@ -11,7 +11,31 @@
 		7E6AF8861E28D5A0003419B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF8851E28D5A0003419B3 /* ViewController.swift */; };
 		7E6AF8881E28D5A0003419B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AF8871E28D5A0003419B3 /* Assets.xcassets */; };
 		7E6AF88B1E28D5A0003419B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AF8891E28D5A0003419B3 /* Main.storyboard */; };
+		7E6AF8941E2C5737003419B3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF8931E2C5737003419B3 /* App.swift */; };
+		7E6AF8961E2C5B0E003419B3 /* CCTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF8951E2C5B0E003419B3 /* CCTV.swift */; };
+		7EA140451E2CBC3B008E8EFE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA140431E2CBC3B008E8EFE /* Realm.framework */; };
+		7EA140461E2CBC3B008E8EFE /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA140431E2CBC3B008E8EFE /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EA140471E2CBC3B008E8EFE /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA140441E2CBC3B008E8EFE /* RealmSwift.framework */; };
+		7EA140481E2CBC3B008E8EFE /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA140441E2CBC3B008E8EFE /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EA1404A1E2E4A61008E8EFE /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA140491E2E4A61008E8EFE /* Report.storyboard */; };
+		7EA1404C1E2E5114008E8EFE /* CRNTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1404B1E2E5114008E8EFE /* CRNTimeInterval.swift */; };
+		7EA1404E1E2E572D008E8EFE /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1404D1E2E572D008E8EFE /* DataCenter.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EA140411E2CBBBC008E8EFE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7EA140481E2CBC3B008E8EFE /* RealmSwift.framework in Embed Frameworks */,
+				7EA140461E2CBC3B008E8EFE /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7E6AF8801E28D5A0003419B3 /* Chronus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +44,13 @@
 		7E6AF8871E28D5A0003419B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E6AF88A1E28D5A0003419B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E6AF88C1E28D5A0003419B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6AF8931E2C5737003419B3 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		7E6AF8951E2C5B0E003419B3 /* CCTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCTV.swift; sourceTree = "<group>"; };
+		7EA140431E2CBC3B008E8EFE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		7EA140441E2CBC3B008E8EFE /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		7EA140491E2E4A61008E8EFE /* Report.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Report.storyboard; sourceTree = "<group>"; };
+		7EA1404B1E2E5114008E8EFE /* CRNTimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRNTimeInterval.swift; sourceTree = "<group>"; };
+		7EA1404D1E2E572D008E8EFE /* DataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA140471E2CBC3B008E8EFE /* RealmSwift.framework in Frameworks */,
+				7EA140451E2CBC3B008E8EFE /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +69,8 @@
 		7E6AF8771E28D5A0003419B3 = {
 			isa = PBXGroup;
 			children = (
+				7EA140431E2CBC3B008E8EFE /* Realm.framework */,
+				7EA140441E2CBC3B008E8EFE /* RealmSwift.framework */,
 				7E6AF8821E28D5A0003419B3 /* Chronus */,
 				7E6AF8811E28D5A0003419B3 /* Products */,
 			);
@@ -52,13 +87,26 @@
 		7E6AF8821E28D5A0003419B3 /* Chronus */ = {
 			isa = PBXGroup;
 			children = (
+				7E6AF8921E2C571E003419B3 /* Models */,
 				7E6AF8831E28D5A0003419B3 /* AppDelegate.swift */,
 				7E6AF8851E28D5A0003419B3 /* ViewController.swift */,
 				7E6AF8871E28D5A0003419B3 /* Assets.xcassets */,
 				7E6AF8891E28D5A0003419B3 /* Main.storyboard */,
 				7E6AF88C1E28D5A0003419B3 /* Info.plist */,
+				7E6AF8951E2C5B0E003419B3 /* CCTV.swift */,
+				7EA140491E2E4A61008E8EFE /* Report.storyboard */,
+				7EA1404D1E2E572D008E8EFE /* DataCenter.swift */,
 			);
 			path = Chronus;
+			sourceTree = "<group>";
+		};
+		7E6AF8921E2C571E003419B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AF8931E2C5737003419B3 /* App.swift */,
+				7EA1404B1E2E5114008E8EFE /* CRNTimeInterval.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +119,7 @@
 				7E6AF87C1E28D5A0003419B3 /* Sources */,
 				7E6AF87D1E28D5A0003419B3 /* Frameworks */,
 				7E6AF87E1E28D5A0003419B3 /* Resources */,
+				7EA140411E2CBBBC008E8EFE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +172,7 @@
 			files = (
 				7E6AF8881E28D5A0003419B3 /* Assets.xcassets in Resources */,
 				7E6AF88B1E28D5A0003419B3 /* Main.storyboard in Resources */,
+				7EA1404A1E2E4A61008E8EFE /* Report.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA1404E1E2E572D008E8EFE /* DataCenter.swift in Sources */,
+				7E6AF8941E2C5737003419B3 /* App.swift in Sources */,
+				7EA1404C1E2E5114008E8EFE /* CRNTimeInterval.swift in Sources */,
+				7E6AF8961E2C5B0E003419B3 /* CCTV.swift in Sources */,
 				7E6AF8861E28D5A0003419B3 /* ViewController.swift in Sources */,
 				7E6AF8841E28D5A0003419B3 /* AppDelegate.swift in Sources */,
 			);
@@ -248,6 +302,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JL5DG96Y3E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Chronus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.Chronus;
@@ -262,6 +320,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JL5DG96Y3E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Chronus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.Chronus;
@@ -289,6 +351,7 @@
 				7E6AF8911E28D5A0003419B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

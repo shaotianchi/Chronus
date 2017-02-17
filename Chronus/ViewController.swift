@@ -10,10 +10,12 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBAction func show(_ sender: Any) {
+        print(CCTV.instance.dosage)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override var representedObject: Any? {
@@ -22,6 +24,6 @@ class ViewController: NSViewController {
         }
     }
 
-
+    
 }
 
